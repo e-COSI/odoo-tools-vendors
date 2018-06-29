@@ -1,0 +1,23 @@
+{
+    "description": "RGV Groupe Odoo vendors addons",
+    "addons": [{
+            "name": "reCaptcha CRM",
+            "comment": "Ajoute un captcha au CRM.",
+            "src": "git",
+            "repo": "https://github.com/OCA/website.git",
+            "branch": "11.0",
+            "technical_name": "website_crm_recaptcha"
+        },
+        {
+            "src": "git",
+            "repo": "https://github.com/OCA/web.git",
+            "branch": "11.0",
+            "technical_name": "web_notify",
+            "comment": "Notification (toast) sur le web."
+        },
+        {
+            "src":"git",
+            "repo":"https://github.com/kleboudec/M2L.git"
+        }
+    ]
+}
